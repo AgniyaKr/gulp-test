@@ -12,7 +12,7 @@ body {
 }
 
 .js-focus-visible :focus:not(.focus-visible) {
-  outline: none;
+  outline: transparent;
 }
 
 .visually-hidden {
