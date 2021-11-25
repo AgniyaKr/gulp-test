@@ -1,27 +1,24 @@
 body {
-  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 25px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.4;
   color: #000;
 }
 
-.is-hidden {
-  display: none !important; // stylelint-disable-line declaration-no-important
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1170px;
 }
 
-.js-focus-visible :focus:not(.focus-visible) {
-  outline: transparent;
-}
-
-.visually-hidden {
-  position: absolute;
-  overflow: hidden;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-  clip: rect(0 0 0 0);
+.title {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 2.4;
 }
